@@ -1,0 +1,257 @@
+$t: #eae8df;
+$c: #f5f3ec;
+$p: #6d4fe1;
+$b: #242155;
+$w: #fff;
+$r: #f57961;
+$y: #fec848;
+
+$blocks:
+  // width, length, left, top, color, layer
+	(300, 300, 0, 0, $t, 0)
+  
+	(80, 30, 10, 10, $p, 1)
+  (80, 30, 10, 10, $p, 9)
+  (20, 30, 10, 10, $p, 8)
+  (20, 30, 10, 10, $p, 7)
+  (20, 30, 10, 10, $p, 6)
+  (20, 30, 10, 10, $p, 5)
+  (20, 30, 10, 10, $p, 4)
+  (20, 30, 10, 10, $p, 3)
+  (20, 30, 10, 10, $p, 2)
+  (10, 30, 80, 10, $p, 2)
+  (10, 30, 80, 10, $p, 8)
+  
+  (80, 30, 110, 10, $b, 1)
+  (10, 30, 180, 10, $b, 2)
+  (10, 30, 180, 10, $b, 3)
+  (10, 30, 180, 10, $b, 4)
+  (80, 30, 110, 10, $b, 5)
+  (10, 30, 110, 10, $b, 6)
+  (10, 30, 110, 10, $b, 7)
+  (10, 30, 110, 10, $b, 8)
+  (80, 30, 110, 10, $b, 9)
+  
+  (80, 30, 210, 10, $r, 1)
+  (10, 30, 280, 10, $r, 2)
+  (10, 30, 280, 10, $r, 3)
+  (10, 30, 280, 10, $r, 4)
+  (80, 30, 210, 10, $r, 5)
+  (10, 30, 210, 10, $r, 6)
+  (10, 30, 210, 10, $r, 7)
+  (10, 30, 210, 10, $r, 8)
+  (80, 30, 210, 10, $r, 9)
+  
+  (10, 60, 120, 110, $y, 1)
+  (10, 60, 120, 110, $y, 2)
+  (10, 60, 120, 110, $y, 3)
+  (10, 60, 120, 110, $y, 4)
+  (10, 60, 120, 110, $y, 6)
+  (30, 60, 150, 110, $y, 1)
+  (10, 60, 170, 110, $y, 2)
+  (30, 60, 150, 110, $y, 3)
+  (10, 60, 150, 110, $y, 4)
+  (30, 60, 150, 110, $y, 5)
+  
+  (20, 30, 10, 250, $p, 1)
+  (60, 30, 10, 250, $p, 9)
+  (20, 30, 10, 250, $p, 8)
+  (20, 30, 10, 250, $p, 7)
+  (20, 30, 10, 250, $p, 6)
+  (60, 30, 10, 250, $p, 5)
+  (20, 30, 10, 250, $p, 4)
+  (20, 30, 10, 250, $p, 3)
+  (20, 30, 10, 250, $p, 2)
+  (20, 30, 50, 250, $p, 8)
+  (20, 30, 50, 250, $p, 7)
+  (20, 30, 50, 250, $p, 6)
+  (20, 30, 50, 250, $p, 4)
+  (20, 30, 50, 250, $p, 3)
+  (20, 30, 50, 250, $p, 2)
+  (20, 30, 50, 250, $p, 1)
+  
+
+  (10, 30, 80, 250, $r, 7)
+  (10, 30, 80, 250, $r, 6)
+  (10, 30, 80, 250, $r, 5)
+  (10, 30, 80, 250, $r, 4)
+  (10, 30, 80, 250, $r, 3)
+  (10, 30, 80, 250, $r, 2)
+  (60, 30, 80, 250, $r, 1)
+  (10, 30, 130, 250, $r, 7)
+  (10, 30, 130, 250, $r, 6)
+  (10, 30, 130, 250, $r, 5)
+  (10, 30, 130, 250, $r, 4)
+  (10, 30, 130, 250, $r, 3)
+  (10, 30, 130, 250, $r, 2)
+  (10, 30, 110, 250, $r, 5)
+  (10, 30, 110, 250, $r, 4)
+  (10, 30, 110, 250, $r, 3)
+  (10, 30, 110, 250, $r, 2)
+  
+  (60, 30, 150, 250, $b, 1)
+  (10, 30, 150, 250, $b, 2)
+  (10, 30, 150, 250, $b, 3)
+  (40, 30, 150, 250, $b, 4)
+  (10, 30, 150, 250, $b, 5)
+  (10, 30, 150, 250, $b, 6)
+  (60, 30, 150, 250, $b, 7)
+  
+  (50, 30, 220, 250, $y, 1)
+  (10, 30, 260, 250, $y, 2)
+  (10, 30, 260, 250, $y, 3)
+  (50, 30, 220, 250, $y, 4)
+  (10, 30, 220, 250, $y, 5)
+  (10, 30, 220, 250, $y, 6)
+  (50, 30, 220, 250, $y, 7)
+  
+  (40, 30, 280, 250, $p, 1)
+  (10, 30, 280, 250, $p, 2)
+  (10, 30, 280, 250, $p, 3)
+  (10, 30, 280, 250, $p, 4)
+  (10, 30, 280, 250, $p, 5)
+  (10, 30, 280, 250, $p, 6)
+  (10, 30, 310, 250, $p, 2)
+  (10, 30, 310, 250, $p, 3)
+  (10, 30, 310, 250, $p, 4)
+  (10, 30, 310, 250, $p, 5)
+  (10, 30, 310, 250, $p, 6)
+  (40, 30, 280, 250, $p, 7)
+  
+  (50, 30, 330, 250, $b, 7)
+  (10, 30, 330, 250, $b, 6)
+  (10, 30, 330, 250, $b, 5)
+  (10, 30, 330, 250, $b, 4)
+  (10, 30, 330, 250, $b, 3)
+  (10, 30, 330, 250, $b, 2)
+  (10, 30, 330, 250, $b, 1)
+  (10, 30, 350, 250, $b, 6)
+  (10, 30, 350, 250, $b, 5)
+  (10, 30, 350, 250, $b, 4)
+  (10, 30, 350, 250, $b, 3)
+  (10, 30, 350, 250, $b, 2)
+  (10, 30, 370, 250, $b, 6)
+  (10, 30, 370, 250, $b, 5)
+  (10, 30, 370, 250, $b, 4)
+  (10, 30, 370, 250, $b, 3)
+  (10, 30, 370, 250, $b, 2)
+  (10, 30, 370, 250, $b, 1)
+  
+  (60, 30, 390, 250, $p, 1)
+  (10, 30, 390, 250, $p, 2)
+  (10, 30, 390, 250, $p, 3)
+  (10, 30, 390, 250, $p, 4)
+  (40, 30, 390, 250, $p, 5)
+  (10, 30, 390, 250, $p, 6)
+  (10, 30, 390, 250, $p, 7)
+  (60, 30, 390, 250, $p, 8)
+	
+  ;
+
+@mixin block($width, $length, $x, $y, $color, $layer){
+  position:absolute;
+  width:$width + px;
+  height:$length + px;
+  left:$x + px;
+  top:$y + px;
+  background:$color;
+  transform-style:preserve-3d;
+  transform:translateZ($layer * 10px);
+  &:before{
+    content:'';
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    background:$color;
+    transform-style:preserve-3d;
+    transform:translateZ(10px);
+  }
+  .front{
+    position:absolute;
+    transform-style:preserve-3d;
+    width:100%;
+    height:10px;
+    background:darken($color, 7.5%);
+    bottom:0;
+    left:0;
+    transform-origin:50% 0%;
+    transform:rotateX(90deg) translateZ(-10px);
+    &:before{
+      content:'';
+      position:absolute;
+      width:100%;
+      height:100%;
+      background:inherit;
+      transform:translateZ($length + px)
+    }
+  }
+  .side{
+    position:absolute;
+    transform-style:preserve-3d;
+    width:10px;
+    height:100%;
+    background:darken($color, 15%);
+    bottom:0px;
+    left:0;
+    transform-origin:0% 50%;
+    transform:translateZ(10px) rotateY(90deg);
+    &:before{
+      content:'';
+      position:absolute;
+      width:100%;
+      height:100%;
+      background:inherit;
+      transform:translateZ($width + px)
+    }
+  }
+}
+
+
+
+body{
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:$c;
+  .wrap{
+    width:300px;
+    height:300px;
+    transform-style:preserve-3d;
+    transform:rotate(0deg) rotateX(0deg) rotateY(0deg);
+    perspective:100000px;
+    transform:rotate(0deg) rotateX(0deg) rotateY(0deg);
+    will-change:transform;
+    transition:0.5s ease-in-out;
+    box-shadow:0 0 0 2px darken($t, 10%);
+    &:hover{
+      transform:rotate(-45deg) rotateX(45deg) rotateY(45deg);
+      box-shadow:0 0 0 2px $t;
+    }
+     
+    .inner{
+      position:absolute;
+      width:100%;
+      height:100%;
+      transform-style:preserve-3d;
+      background:rgba(0,0,0,0.15);
+    }
+    .block{
+      @for $b from 1 through length($blocks) {
+      &:nth-of-type(#{$b}){
+        @include block(
+          nth(nth($blocks, $b), 1),
+          nth(nth($blocks, $b), 2),
+          nth(nth($blocks, $b), 3),
+          nth(nth($blocks, $b), 4),
+          nth(nth($blocks, $b), 5),
+          nth(nth($blocks, $b), 6),
+        );
+      }
+	}
+    }
+  }
+}
